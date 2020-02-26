@@ -183,6 +183,7 @@ UPROGS=\
 	_wc\
 	_zombie\
 	_apagar\
+	_reiniciar\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
